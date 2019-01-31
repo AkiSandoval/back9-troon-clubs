@@ -1,0 +1,494 @@
+@font-face {
+    font-family: 'MagistralC';
+    src: url('fonts/magistral-c/magistralc-bold_29313-webfont.eot');
+    src: url('fonts/magistral-c/magistralc-bold_29313-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/magistral-c/magistralc-bold_29313-webfont.woff2') format('woff2'),
+         url('fonts/magistral-c/magistralc-bold_29313-webfont.woff') format('woff'),
+         url('fonts/magistral-c/magistralc-bold_29313-webfont.ttf') format('truetype'),
+         url('fonts/magistral-c/magistralc-bold_29313-webfont.svg#magistralcbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:url('fonts/poppins/Poppins.ttf.woff') format('woff'),
+        url('fonts/poppins/Poppins.ttf.svg#Poppins') format('svg'),
+        url('fonts/poppins/Poppins.ttf.eot'),
+        url('fonts/poppins/Poppins.ttf.eot?#iefix') format('embedded-opentype'), 
+        url('fonts/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	font-family: MagistralC;
+	color:#5e5d5d;
+}
+
+a {
+	text-decoration: none!important;
+}
+
+p {
+	font-family: 'Poppins';
+	font-size: 16px;
+	font-weight: 300;
+}
+
+ul , li{
+	font-family: 'Poppins';
+	font-size: 16px;
+	line-height: 30px;
+}
+
+h1 {
+	font-family: inherit;
+  	line-height: 1.1;
+  	font-size: 34px;
+   letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 27px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 18px;
+	font-family: 'Poppins';
+}
+
+.title-sm-divider {
+  	display:block;
+  	width:150px;
+	height: 2px;
+	background-color: #e1b400;
+	margin:auto auto 30px;
+}
+
+/*navbar*/	
+.navbar {
+	background:transparent;
+}
+
+.navbar-brand {	
+	height: 60px;	
+	transition:all .4s ease;
+}
+
+.header-btn {
+	border-radius: 3px;
+	background: #e1b400;
+	max-width: 185px;
+	color: white;
+	font-size: 14px;
+  	font-weight: 400;
+  	padding: 10px 25px;
+  	margin-left: auto;
+  	margin-right: 20px;
+  	transition: .5s; 
+}
+
+
+
+.btn {
+	margin-left: auto;
+	list-style: none;
+}
+
+.header-btn:hover , .tee-btn:hover {
+	background-color:#212529;
+	text-decoration: none;
+	color:white;
+}
+
+/*header*/
+.header {
+	margin-bottom: 50px!important;
+	padding-top:130px;
+	height:352px;
+	background-image: url(images/hero.png);
+	background-repeat: no-repeat; 
+	color:white;
+	background-position: center;
+}
+
+
+
+.header-text {
+	margin: 0 140px;
+}
+
+/*becoming a back9 club*/
+.back9-club {
+	padding: 30px 40px 40px 40px;
+}
+
+.back9-club video {
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,.1);
+}
+
+.back9-club-info li {
+	margin: 16px 0;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+/*OUR PRODUCTS & PLATFORMS*/
+.our-products {
+	margin-top: 40px;
+	padding: 70px 0;
+	background-color:#f7f9fc;
+}
+
+.our-products .container-fluid {
+	width: 85%;
+}
+
+.our-products-sm-title {
+	font-family: 'MagistralC';
+	letter-spacing: 1.9px;
+	font-size: 18px;
+	color:#e1b400;
+}
+
+/*tee-time-demo*/
+.tee-time {
+	padding: 70px 0;	
+}
+
+.tee-btn {
+	border-radius: 3px;
+	background: #e1b400;
+	max-width: 385px;
+	color: white;
+	font-size: 16px;
+  	font-weight: 400;
+  	white-space: nowrap;
+  	transition: .5s;
+  	margin:0;
+  	padding: 15px 35px;
+  	transition: .5s;
+}
+
+/*the process*/
+.the-process {
+	padding: 70px 0;
+	background-color: #f7f9fc;
+}
+
+/*additional-benefits*/
+.partnership {
+	padding: 70px 0;
+	list-style-position: inside;	
+}
+
+.partnership .container-fluid {
+	width:85%;
+}
+
+.partnership li:first-of-type {
+	text-align: center;
+	list-style: none;
+}
+
+.partnership-content ul , li {
+	margin:0;
+	padding: 0;
+}
+
+/*marketing support*/
+.marketing {
+	padding: 70px 0;
+	background-color: #f7f9fc;
+}
+
+/*packages*/
+.packages {
+	padding: 70px 0;
+}
+
+.packages ul {
+	padding-bottom: 20px;
+  	list-style: none;
+  	padding-left: 20px; 
+}
+
+.packages li {
+	font-size: 14px;
+}
+
+.packages ul li:before {
+	color: #e1b400;
+  	content: ' ✓ ';
+  	padding-right: 5px;
+}
+
+.card h6 {
+	font-weight: 500;
+	font-size: 15px;
+}
+
+
+.packages-card-title.first{
+	background-color:#A9A9A9;
+}
+
+.packages-card-title.second{
+	background-color: #808080;	
+}
+
+.packages-card-title.third{
+	background-color: #696969;
+}
+
+.card-buttom {
+	text-align: center;
+	color:#e1b400;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: MagistralC;
+	border-top:grey 1px solid;
+}
+
+/*socialmedia*/
+.socialmedia {
+	background-color: #303030;
+	height: 200px;
+	align-items: center;
+}
+
+.social {
+	margin: 20px;
+}
+
+.fa {
+	padding: 15px 17px;
+    height: 56px;
+    width: 56px;
+   	border: 1px solid #e1b400;
+    background-color: transparent;
+    border-radius: 50%;
+    color:#e1b400;
+    font-size: 25px;
+}
+
+.fa-facebook {
+	font-size: 30px;
+}
+
+.fa-facebook:hover {
+	color:#fff;
+	background-color:  #3B5998;
+}
+
+.fa-instagram:hover {
+	color:white;
+  	background: #f09433;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
+}
+
+.fa-twitter:hover {
+	color:#fff;
+	background-color:#0084b4;
+}
+
+.fa-youtube:hover {
+	color:#fff;
+	background-color: #c4302b;
+}
+
+/*footer*/
+footer {
+	background-color:#222;
+	padding: 30px 15px 30px 15px;
+	color: #777;
+	font-family: 'Poppins';
+	font-size: 15px;
+}
+
+footer a{
+	color:white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	opacity: .5;
+	color: white;
+}
+
+.footer-text {
+	border-bottom: 1px solid white;
+	height: 30px;
+}
+
+.footer-back9logo {
+	height: 80px;
+	width: 85px;
+	margin-left: 3rem;
+}
+
+@media screen and (max-width: 1170px) {
+.back9-club-info li {
+	margin-left: 40px!important;
+}
+
+@media screen and (max-width: 1024px) {
+.social {
+	margin: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+	
+li {
+	list-style-position: outside;
+	}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	margin:0!important;
+}
+
+.footer-back9logo {
+	margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 991px) {
+		.navbar {
+		background-color: #07072f;
+	}
+
+	.header {
+		padding-top: 125px;
+	}
+
+	.header-text {
+		margin: 0;
+	}
+
+	.header-btn , .btn {
+		flex-direction: column;
+		margin-bottom:15px;
+		margin-right: auto;
+	}
+
+	.navbar-collapse {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.partnership-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.the-process img , .marketing img {
+		width: 100%;
+	}
+
+	.card {
+		margin-top: 20px;
+	}
+
+@media screen and (max-width: 948px) {
+	.our-products-sm-title {
+		margin-right: 1px!important;
+		padding-right: 1px!important;
+	}
+
+.our-products p {
+		padding-top:10px;
+	}
+}
+@media screen and (max-width: 575px) {
+		.our-products ul {
+			margin: 0 20px;
+			padding-top: 20px;
+		}
+
+		h1 {
+  		font-size: 25px!important;
+		}
+
+		h2 {
+			font-size: 20px;
+		}
+
+		h6 {
+			font-size: 14px;
+}
+
+.back9-club {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 530px) {
+.header {
+
+	padding-top:125px!important;
+}
+
+
+
+
+@media screen and (max-width: 503px) {
+		.header {
+			padding-top: 145px;
+		}
+
+		.header p {
+			margin:0!important;
+		}
+		
+		.title-sm-divider {
+		margin:20px auto 30px;
+		}
+
+		p {
+			font-family: 'Poppins';
+			font-weight: lighter;
+			font-size: 14px;
+			font-weight: 300;
+		}
+
+@media screen and (max-width: 402px) {
+		footer {
+			text-align: center;
+		}
+
+@media screen and (max-width: 360px) {
+		.header {
+			padding-top: 115px;
+		}
+
+
+
+
+
+
+
+
+
