@@ -157,15 +157,16 @@ h6 {
 }
 
 .our-products .container-fluid {
-	width: 85%;
+	width: 90%;	
 }
 
 .our-products-sm-title {
 	font-family: 'MagistralC';
-	letter-spacing: 1.9px;
-	font-size: 18px;
+	letter-spacing: 2px;
+	font-size: 19px;
 	color:#e1b400;
-}
+	font-weight: bolder!important;
+}	
 
 /*tee-time-demo*/
 .tee-time {
@@ -184,6 +185,7 @@ h6 {
   	margin:0;
   	padding: 15px 35px;
   	transition: .5s;
+  	margin-left: auto;
 }
 
 /*the process*/
@@ -220,7 +222,7 @@ h6 {
 
 /*packages*/
 .packages {
-	padding: 70px 0;
+	padding-top: 70px;
 }
 
 .packages ul {
@@ -271,6 +273,7 @@ h6 {
 	background-color: #303030;
 	height: 200px;
 	align-items: center;
+	margin-top: 100px;
 }
 
 .social {
@@ -344,6 +347,25 @@ footer a:hover{
 	height: 80px;
 	width: 85px;
 	margin-left: 3rem;
+}
+
+.our-products-info.second{
+margin-right: 125px;
+}
+
+
+@media screen and (max-width: 1255px) {
+.our-products-image {
+	width: 350px;
+	height: 250px;
+	margin-right: 0!important;
+
+}
+
+.our-products-info{
+	flex-direction: column;
+}
+
 }
 
 @media screen and (max-width: 1170px) {
@@ -422,6 +444,18 @@ footer div {
 		padding-top:10px;
 	}
 }
+
+
+@media screen and (max-width: 638px) {
+
+.our-products-info.second{
+margin-right: 0;
+}
+
+.back9-club-info{
+padding-left: 0!important;
+}
+
 @media screen and (max-width: 575px) {
 		.our-products ul {
 			margin: 0 20px;
@@ -472,6 +506,12 @@ footer div {
 			font-weight: lighter;
 			font-size: 14px;
 			font-weight: 300;
+		}
+
+@media screen and (max-width: 422px) {
+		.troon-cp {
+			width: 320px;
+			height: 281px;
 		}
 
 @media screen and (max-width: 402px) {
