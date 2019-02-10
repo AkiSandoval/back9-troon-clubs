@@ -353,6 +353,13 @@ footer a:hover{
 margin-right: 125px;
 }
 
+@media screen and (max-width: 1426px) {
+	.our-products-image {
+		margin-bottom: 35px!important;
+	}
+
+}
+
 
 @media screen and (max-width: 1255px) {
 .our-products-image {
