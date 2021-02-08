@@ -15,11 +15,11 @@
     animation: fade-in 1s 1s forwards;
 }
 
-.fade-up {
+.fadee-up {
 	-webkit-transform: translate3d(0,-10px,0);
 	-moz-transform: translate3d(0,-10px,0);
 	transform: translate3d(0,-10px,0);
-    -webkit-animation: fade-in 1s 1s forwards;
+    -webkit-animation: fade-in 1s 1s forwa srds;
 		-moz-animation: fade-in 1s 1s forwards;
     animation: fade-in 1s 1s forwards;
     transition: 2s;
