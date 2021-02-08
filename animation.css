@@ -11,7 +11,7 @@
 .fade-down {
 	-webkit-transform: translate3d(0,60px,0);
 	transform: translate3d(0,60px,0);
-    -webkit-animatioan: fade-in 1s 1s forwards;
+    -webkit-animation: fade-in 1s 1s forwards;
     animation: fade-in 1s 1s forwards;
 }
 
